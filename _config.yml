@@ -1,0 +1,33 @@
+# Site settings
+title: Liang Ke Jin
+description: Liang Ke Jin
+favicon: /assets/img/avatar.JPG
+baseurl:
+url: https://liungkejin.github.io
+rss_url:
+
+# Build settings
+
+highlight: true
+#highlighter: rouge
+
+timezone: Asia/Shanghai
+
+markdown: kramdown
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+  #coderay:
+  syntax_highlighter_opts:
+    syntax_highlighter_opts: div
+    #coderay_wrap: div
+    line_numbers: inline
+    line_numbers_start: 1
+    tab_width: 4
+    bold_every: 10
+    css: style
