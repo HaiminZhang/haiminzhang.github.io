@@ -33,7 +33,7 @@
   margin-top: 0;
   margin-bottom: 1rem;
   /*font-size: 18px;*/
-  font-family: courier;
+  font-family: arial;/* courier; */
   display: inline-block;
 }
 
@@ -73,8 +73,8 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 17px;
+  font-family: "Arial", "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  font-size: 18px;
   font-weight: 500;
   margin: 0;
   padding: 0 .5em;
@@ -107,22 +107,25 @@ nav.menu li:last-child {
  */
 
 .blogmain {
-    max-width: 830px;
-    width: 100%;
-    margin: 20px auto;
+    width: 1200px; /* 830 */
+    /* width: 100%; */
+    margin: 20px  auto;
     /* margin-left: 0px auto; */
-    font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+    font-family: "Arial", "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
     font-size: 16px;
      line-height: 1.6em; 
 }
 
+.main_container{
+     width=100%;
+}
 .people_container {
-     width:100%; height:220px;  line-height:normal; border:0px dotted #e8e8e8; overflow:hidden; 
-     margin:20px 0px 0px; 
+     width:830px; height:220px;  line-height:normal; border:0px dotted #e8e8e8; overflow:hidden; 
+     margin:20px 185px 0px; 
 } 
 .student_container {
-     width:100%; height:200px;  line-height:normal; border:0px dotted #e8e8e8; overflow:hidden; 
-     margin:20px 0px 0px; 
+     width:830px; height:200px;  line-height:normal; border:0px dotted #e8e8e8; overflow:hidden; 
+     margin:20px 185px 0px; 
 } 
 
 
@@ -258,6 +261,6 @@ div.authorimage {
     color: #f0f0f0;
     background-color: #575757;
     background-color: rgba(51, 123, 181, 0.6);
-    font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L",sans-serif;
+    font-family: "Arial", "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L",sans-serif;
     margin-top: 40px;
 }
