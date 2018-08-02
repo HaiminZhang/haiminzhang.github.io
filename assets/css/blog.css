@@ -118,6 +118,7 @@ nav.menu li:last-child {
 
 .main_container{
      width=100%;
+     font-weight:500;
 }
 .people_container {
      width:830px; height:220px;  line-height:normal; border:0px dotted #e8e8e8; overflow:hidden; 
